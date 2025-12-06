@@ -68,8 +68,8 @@ activations.json
 ## Code and installation
 
 To run this project, please set up the environment using the packages listed in 
-[requirements.txt](requirements.txt).
- you need to clone it into a directory of choice and create a python environment.
+[requirements.txt](requirements.txt),
+and you need to clone it into a directory of choice and create a python environment.
 ```bash
 git clone git@github.com:edornd/mmflood.git && cd mmflood
 python3 -m venv .venv
