@@ -1,4 +1,4 @@
-# MMflood-segmentation-project
+# MMflood-segmentation project
 This repository serves as the code write-up for ENVIR ST 900 – AI for Earth Observation at the University of Wisconsin–Madison.
 
 If you would like to explore the models I trained and the visualization examples 
