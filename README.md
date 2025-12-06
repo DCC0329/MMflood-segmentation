@@ -14,11 +14,12 @@ test imbalance-handling strategies (weighted sampling, mask_ratio), and explore 
 
 ## Research Question & Motivation
 
-Research Question:
+### Research Question:
+
 Can deep learning models accurately map flood extents from noisy, highly imbalanced SAR data?
 How do architecture choices, backbones, and sampling strategies affect performance?
 
-Motivation:
+### Motivation:
 Floods cause widespread damage, and floods are among the most destructive natural hazards.  
 Accurate large-scale flood mapping enables rapid response and risk assessment, but traditional optical remote sensing is limited by clouds.
 SAR works in all weather conditions, making it ideal for rapid flood mapping.
