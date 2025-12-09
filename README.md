@@ -28,6 +28,8 @@ However, SAR datasets are noisy and extremely imbalanced (most tiles contain <5%
 making segmentation challenging. This project investigates modeling approaches to improve performance.
 
 ##  Dataset  
+
+### Source  
 from Zenodo: https://zenodo.org/record/6534637
   <img width="963" height="436" alt="image" src="https://github.com/user-attachments/assets/20746669-6b78-4f00-92f4-24cfc61cc1d6" />
 
@@ -58,6 +60,8 @@ activations/
 │  │  ├─ ...
 activations.json
 ```
+### Data Modalities  
+
 | Image    | Description                                           | Format            | Bands        |
 | -------- | ----------------------------------------------------- | ----------------- | ------------ |
 | S1 raw   | Georeferenced Sentinel-1 imagery, IW GRD              | GeoTIFF Float32   | 0: VV, 1: VH |
@@ -68,7 +72,7 @@ activations.json
 ## Code and installation
 
 To run this project, please set up the environment using the packages listed in 
-[requirements.txt](requirements.txt),
+[requirements.txt](requirements.txt),Python 3.8+ recommended.
 and you need to clone it into a directory of choice and create a python environment.
 ```bash
 git clone git@github.com:edornd/mmflood.git && cd mmflood
@@ -105,3 +109,4 @@ CUDA_VISIBLE_DEVICES=... python run.py test --data-root [PATH_TO_OUTPUT_DIR] [--
 This project uses the MMFlood dataset and partially adopts components from the original codebase:
 [https://github.com/floods-mm/floods](https://github.com/edornd)
 We thank the authors for making these resources publicly available.
+The implementation was adapted for course requirements, and may differ from the official repository in configuration structure and training scripts.
